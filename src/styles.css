@@ -1,0 +1,39 @@
+html, body {
+  background-color: #21232A;
+  color: whitesmoke;
+  font-family: "Roboto Thin", sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+#root{
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+h2{
+  margin: 3rem;
+}
+code{
+  border: solid 1px deepskyblue;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+.buttonContainer{
+  /*border: solid 1px red;*/
+  margin:5rem;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: 1fr;
+  grid-gap: 10px;
+}
+button{
+  padding: 15px;
+  font-size: 1.3rem;
+  border-radius: 10px;
+}

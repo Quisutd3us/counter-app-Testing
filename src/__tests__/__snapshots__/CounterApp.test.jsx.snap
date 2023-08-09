@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Set of testing functions to Counter React App Must be match with the snapshot 1`] = `
+<div>
+  <div>
+    <h1>
+      Counter APP
+    </h1>
+    <h2>
+      100
+    </h2>
+    <div
+      class="buttonContainer"
+    >
+      <button
+        aria-label="btnAdd"
+      >
+        +1
+      </button>
+      <button
+        aria-label="btnRest"
+      >
+        -1
+      </button>
+      <button
+        aria-label="btnReset"
+      >
+        Reset
+      </button>
+    </div>
+  </div>
+</div>
+`;
